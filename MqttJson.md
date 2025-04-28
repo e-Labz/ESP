@@ -39,10 +39,10 @@ void loop() {
 #include <WiFi.h>
 #include <PubSubClient.h>
 
-const char* ssid = "Wokwi-GUEST";  // Substitua pelo seu SSID
-const char* password = "";  // Substitua pela senha do Wi-Fi
-const char* mqtt_server = "broker.hivemq.com";  // Substitua pelo endereço do broker MQTT
-const char* topic = "wokwi-lab/esp32c3/sensores";  // Tópico MQTT para envio dos dados
+const char* ssid = "SEU_SSID";               // Substitua pelo seu SSID
+const char* password = "SUA_SENHA";          // Substitua pela senha do Wi-Fi
+const char* mqtt_server = "SEU_BROKER_MQTT"; // Substitua pelo endereço do broker MQTT
+const char* mqtt_topic = "sensores/dados";   // Tópico MQTT para envio dos dados
 
 WiFiClient espClient;
 PubSubClient client(espClient);
