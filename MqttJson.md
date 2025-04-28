@@ -4,7 +4,8 @@ Codigo simples para demostrar a leitura das portas analógicas e publicação em
 - Utiliza bitfileds para armazenar em 10 bits a leitura de cada porta analogica
 - Imprime em formato Json sem utilizar biblioteca externa
 
-```MqqtJson.ino
+`MqqtJson.ino`
+```
 #include "common.h"
 
 void setup() {
@@ -30,7 +31,8 @@ void loop() {
 }
 ```
 
-```common.h
+`common.h`
+```
 #ifndef __COMMON_H__
 #define __COMMON_H__
 
@@ -61,7 +63,8 @@ String getJson(sensor_t sensor);
 ```
 
 
-```common.ino
+`common.ino`
+```
 #include "common.h"
 
 void setup_wifi() {
