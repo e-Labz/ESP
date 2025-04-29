@@ -56,7 +56,7 @@ typedef struct {
 void setup_wifi();
 void reconnect();
 sensor_t readSensor();
-String getCsv(sensor_t sensor);  // Modificação: função para gerar CSV
+String getCsv(sensor_t sensor);
 
 #endif // __COMMON_H__
 ```
