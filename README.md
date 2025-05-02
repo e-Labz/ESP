@@ -6,4 +6,5 @@
 | [MqttCSV.ino](https://elabz.net/ESP/MqttCSV) | publish MQTT in CSV format |
 | [MqttJson.ino](https://elabz.net/ESP/MqttJson) | publish MQTT in Json format |
 
-###### [eLabz.net](https://elabz.net)
+---
+###### This is free software — consider supporting us to [buy our coffee or beer](https://www.buymeacoffee.com/AndreSantana) 😉
